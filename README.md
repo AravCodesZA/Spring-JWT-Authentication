@@ -1,66 +1,65 @@
-# 🌱 Spring Boot JWT Authentication API
-
+🌱 Spring Boot JWT Authentication API
 A complete Spring Boot application with JWT authentication, role-based authorization, and token refresh functionality.
 
----
+✨ Features
+✅ User registration and login with JWT
 
-## ✨ Features
+🔑 Role-based authorization (USER & ADMIN)
 
-- ✅ User registration and login with JWT
-- 🔑 Role-based authorization (USER & ADMIN)
-- ♻️ Token refresh mechanism
-- 🐘 PostgreSQL or 🐱‍💻 H2 database support
-- 🐳 Docker-ready configuration
-- 📊 Pre-loaded sample data for easy testing
-- 🔒 Secure password hashing with BCrypt
+♻️ Token refresh mechanism
 
----
+🐘 PostgreSQL or 🐱‍💻 H2 database support
 
-## 🛠️ Technologies
+🐳 Docker-ready configuration
 
-- Java 17
-- Spring Boot 3.1
-- Spring Security
-- JWT (JSON Web Tokens)
-- PostgreSQL / H2 Database
-- Lombok
-- Docker
+📊 Pre-loaded sample data for easy testing
 
----
+🔒 Secure password hashing with BCrypt
 
-## 📊 Pre-loaded Sample Data
+🛠️ Technologies
+Java 17
 
+Spring Boot 3.1
+
+Spring Security
+
+JWT (JSON Web Tokens)
+
+PostgreSQL / H2 Database
+
+Lombok
+
+Docker
+
+📊 Pre-loaded Sample Data
 The application comes with two pre-configured users:
 
-| Username | Password  | Role  |
-|:----------|:-----------|:--------|
-| `admin`   | `admin123`  | ADMIN   |
-| `user`    | `user123`   | USER    |
+Username	Password	Role
+admin	admin123	ADMIN
+user	user123	USER
 
----
+🚀 Getting Started
+📌 Prerequisites
+Java 17 JDK
 
-## 🚀 Getting Started
+Maven 3.8+
 
-### 📌 Prerequisites
+Docker (optional)
 
-- Java 17 JDK
-- Maven 3.8+
-- Docker (optional)
-- PostgreSQL (optional if using H2)
+PostgreSQL (optional if using H2)
 
----
-
-## 🔧 Running Locally
-
-### 1️⃣ Clone the repository:
-```bash
+🔧 Running Locally
+1️⃣ Clone the repository:
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/spring-jwt-auth-pro.git
 cd spring-jwt-auth-pro
 2️⃣ Choose your database:
 🐱‍💻 H2 (in-memory, default)
 No additional setup needed.
 
-🐘 PostgreSQL:
+🐘 PostgreSQL
 Update application.yml:
 
 yaml
