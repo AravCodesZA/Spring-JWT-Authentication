@@ -53,7 +53,6 @@ Choose your database:
 
 🐘 PostgreSQL: Update application.yml:
 
-yaml
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_auth
